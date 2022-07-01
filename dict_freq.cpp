@@ -13,8 +13,8 @@ constexpr unsigned undefined_uint = std::numeric_limits<unsigned>::max();
 typedef std::pair<size_t, size_t> WordBounds;
 typedef std::vector<WordBounds> WordBoundsVec;
 
-static const std::string inputFilename = "./../../../input.txt";
-static const std::string outputFilename = "./../../../output.txt";
+static const std::string inputFilename =  "./../input.txt";
+static const std::string outputFilename = "./../output.txt";
 
 // for single-threaded test
 static constexpr size_t wordCountExpected = 60000000;
