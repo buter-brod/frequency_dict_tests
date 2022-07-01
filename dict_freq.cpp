@@ -8,6 +8,10 @@
 #include <vector>
 #include <array>
 #include <sstream>
+#include <thread>
+#include <condition_variable>
+#include <memory>
+#include <ranges>
 
 constexpr unsigned undefined_uint = std::numeric_limits<unsigned>::max();
 typedef std::pair<size_t, size_t> WordBounds;
